@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'top'
-                sh 'mvn --version'
+               sh 'mvn --version'
             }
         }
     }
