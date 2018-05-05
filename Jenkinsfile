@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker exec -it /bin/bash'
+                sh 'top'
                 sh 'mvn --version'
             }
         }
